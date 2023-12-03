@@ -1,2 +1,2 @@
 # Walk-On-Walls
-Vr chat world by the same name. Use a station to move on the surface of objects
+Vr chat world by the same name. Use a station to move on the surface of objects. Otherwise float and use a rocket to add some velocity. Idea changed a bit so script name is diffrent. Had trouble with rigid body so this was implemented without utilising one. In retrospect may be possible with rotations on the rigidbody disabled. Did write a collision detection function which sometimes causes the player to get stuck so commented that out. As long as the walls aren't 90 degrees to the floor the player won't walk through them. Does cause a bug where the player can sometimes jump through the cieling as if its not there. Suspect this may be update dependant.
